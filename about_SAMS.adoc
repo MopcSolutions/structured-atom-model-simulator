@@ -1,15 +1,20 @@
+= What is SAMS
+Doc Writer <doc@example.com>
+
+== Structured Atom Model Simulator
+
 SAMS is an acronym for "Structured Atom Model Simulator"
 
 The Structured Atom Model (SAM) is an hypothetic model for atomar nucleii, created by Edwin "Edo" Kaal.
 The hypothesis posstulaes a simple, deterministic and spatially structured model of any atom's nucleus.
 
-Prime factrors:
+.Prime factrors are
 1. There are no discreet Neutrons. All Neutrons are to be replaced with a Proton-electron pair.
 2. Inner electrons.
 3. Equilibrium between repulsive hompolar and attractive heteropolar forces lead to the "Principle Of Densest Packing", resulting in Platonic bodies.
 4. The only force active is the electrostatic force.
 
-Abstract SAMS:
+== Abstract SAMS
 According to the SAM, all nucleii have an anisotropic multipole or dipole e-field configuration, which can be used to align the ionized nucleii to a preferred attitude, by applying external
 magnetic and/or electrostatic fields. This would lead to the succeptible spots of the nucleus to lay in preferred orientation, increasing the probability of
 catching further Pe-pairs or PeP-Deuteron nuclets, increasing the reaction rate of plasma based inertial fusion systems.
@@ -19,7 +24,7 @@ In essence, viability of an "electrodynamically catalyzed closed-cycle fission-f
 more Hydrogen nucleii by external means (fuel tank)
 
 
-How:
+== How
 The electric field constant. It works similar to the gravimetric field constant, but its falloff is different. See Coulomb's Law
 F=k(q1+q2)/d²
 The attractive/repulsive force (F) diminishes over the square root of the distance (d) of two charges (q1 and q2).
