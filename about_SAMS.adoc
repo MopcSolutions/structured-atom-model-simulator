@@ -23,16 +23,13 @@ probability of spontaneous nuclear fissile decay on stable elements by exceeding
 In essence, viability of an "electrodynamically catalyzed closed-cycle fission-fusion reactor system" which's thermal losses can be compensated by simply replacing lost matter with
 more Hydrogen nucleii by external means (fuel tank)
 
-
 == How
 The electric field constant. It works similar to the gravimetric field constant, but its falloff is different. See Coulomb's Law
 F=k(q1+q2)/d²
 The attractive/repulsive force (F) diminishes over the square root of the distance (d) of two charges (q1 and q2).
 
-....
-
-Credits:
-Edwin Kaal
-Thunderbolts Project
-MOPC
-h0yer
+.Credits
+* Edwin Kaal
+* Thunderbolts Project
+* MOPC
+* h0yer
