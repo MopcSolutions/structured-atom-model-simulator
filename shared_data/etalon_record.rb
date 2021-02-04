@@ -21,8 +21,8 @@ class DataGenerator
         @arr.push(EtalonRecord.new("MassConstant",0.00000000000000000000000000167262))
         @arr.push(EtalonRecord.new("ElectronMass",1 x "MassConstant"))
         @arr.push(EtalonRecord.new("ProtonMass",1836 x "ElectronMass"))
-        @arr.push(EtalonRecord.new("ElectronDiameter",000000000000000565))
-        @arr.push(EtalonRecord.new("ProtonDiameter",0000000000000000833))
+        @arr.push(EtalonRecord.new("ElectronDiameter",0.00000000000000565))
+        @arr.push(EtalonRecord.new("ProtonDiameter",0.00000000000000833))
     end
 
     def write_json
