@@ -1,8 +1,19 @@
-{"employees":[
-  { "firstName":"John", "lastName":"Doe" },
-  { "firstName":"Anna", "lastName":"Smith" },
-  { "firstName":"Peter", "lastName":"Jones" }
-]}
-{"constants":[
-  {"coloumbconstant":"k=8987551792.3"}
-]}
+{
+  "parameterNumberInt": 1,
+  "parameterNumberFloat": 1084.43,
+  "parameterString":"John",
+  "parameterBool":true,
+  "parameterNull":null,
+  "parameterArray":
+  [
+    { "firstName":"John", "lastName":"Doe" },
+    { "firstName":"Anna", "lastName":"Smith" },
+    { "firstName":"Peter", "lastName":"Jones" }
+  ],
+  "parameterObject":
+  { 
+    "name":"John", 
+    "age":30, 
+    "city":"New York"
+  }
+}
