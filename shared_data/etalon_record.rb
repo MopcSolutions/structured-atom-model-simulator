@@ -10,15 +10,19 @@ class EtalonRecord
 end
 
 # this class has an array of data
-# and a method for data 
+# and a method for data
 class DataGenerator
     # define data in this method
     @arr = Array.new # a list of elements (actually an array, but lets call it a list)
     def define_data
         # create billion billion billion billion elements
-        @arr.push(EtalonRecord.new("i am hydrogen",123, 3.14159265358979323846))
-        @arr.push(EtalonRecord.new("i am silicon",123, 3.14159265358979323846))
-        @arr.push(EtalonRecord.new("i am ununoctium",123, 3.14159265358979323846))
+        @arr.push(EtalonRecord.new("MassUnit",g,gram))
+        @arr.push(EtalonRecord.new("LengthUnit",m,meter))
+        @arr.push(EtalonRecord.new("MassConstant",0.00000000000000000000000000167262))
+        @arr.push(EtalonRecord.new("ElectronMass",1 x "MassConstant"))
+        @arr.push(EtalonRecord.new("ProtonMass",1836 x "ElectronMass"))
+        @arr.push(EtalonRecord.new("ElectronDiameter",000000000000000565))
+        @arr.push(EtalonRecord.new("ProtonDiameter",0000000000000000833))
     end
 
     def write_json
