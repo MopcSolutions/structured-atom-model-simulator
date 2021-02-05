@@ -1,0 +1,63 @@
+[plantuml, ruby_classes, png]     
+....
+
+hide empty members
+
+class SiUnit
+{
+  +second
+  +metre
+  +kilogram
+  +ampere
+  +kelvin
+  +mole
+  +candela
+  +initialize(s, m, kg, A, K, mon, cd)
+}
+class PowerValue
+{
+  +initialize(val, p)
+  +calculate()
+}
+class SiValue
+{
+  +initialize(p_val, si_u)
+}
+class BaseUnits <<Builder>>
+{
+  +Second(p)
+  +Meter(p)
+  +Kilogram(p)
+  +Ampere(p)
+  +Kelvin(p)
+  +Mole(p)
+  +Candela(p)
+}
+class DerivedUnits <<Builder>>
+{
+  +Joule()
+  +Newton()
+  +Pascal()
+  +Watt()
+  +Coulomb()
+  +Volt()
+  +Ohm()
+  +Hertz()
+  +Becquerel()
+  +Gray()
+  +Sievert()
+  +Farad()
+  +Siemens()
+  +Weber()
+  +Tesla()
+  +Henry()
+  +Katal()
+}
+
+BaseUnits <|-down- DerivedUnits
+PowerValue *-up- SiValue
+SiUnit *-down- SiValue
+
+BaseUnits .left.> SiUnit : uses
+
+....

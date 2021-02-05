@@ -1,0 +1,10 @@
+= Structure of Ruby part 
+Sergej Kern <sergej.kern@roboterwerke.su>
+
+== How to
+https://asciidoctor.org/docs/asciidoctor-diagram/
+
+== Diagrams
+
+.Class diagrams
+include::diagrams/ruby_classes.iuml[]
