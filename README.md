@@ -15,4 +15,4 @@ Place reqierements and issues in the [Project](https://github.com/MopcSolutions/
 ## Diagrams
 
 Current diagrams
-![ruby classes](http://url/to/img.png)
+![ruby classes](./documentation/img/ruby_classes.png)
