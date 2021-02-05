@@ -1,5 +1,18 @@
-# structured-atom-model-simulator
+# SAM-simulator
 
-Documantation will be done in AsciiDoc -> https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+A simulator of the structured atom model.
+
+## Guidelines
+
+Documentation is be done in [AsciiDoc](docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/) using [PlantUML](www.plantuml.com) for diagrams.
 
 Find documentation in documentation folder ;)
+
+## Project
+
+Place reqierements and issues in the [Project](https://github.com/MopcSolutions/structured-atom-model-simulator/projects/1)
+
+## Diagrams
+
+Current diagrams
+![ruby classes](http://url/to/img.png)
