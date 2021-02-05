@@ -5,13 +5,13 @@ hide empty members
 
 class SiUnit
 {
-  +second
-  +metre
-  +kilogram
-  +ampere
-  +kelvin
-  +mole
-  +candela
+  -second
+  -metre
+  -kilogram
+  -ampere
+  -kelvin
+  -mole
+  -candela
   +initialize(s, m, kg, A, K, mon, cd)
 }
 class PowerValue
