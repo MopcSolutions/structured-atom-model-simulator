@@ -17,9 +17,7 @@ public class PowerValue
     }
   }
 
-  public PowerValue()
-  {
-  }
+  // public PowerValue() {}
 
   public PowerValue(float v, int p)
   {

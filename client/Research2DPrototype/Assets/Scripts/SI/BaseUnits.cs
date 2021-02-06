@@ -1,6 +1,6 @@
 using System;
 
-public static class BaseUnits
+public class BaseUnits
 {
 
   /// <summary>
@@ -8,7 +8,7 @@ public static class BaseUnits
   /// </summary>
   /// <param name="p">power as int</param>
   /// <returns></returns>
-  public static SiUnit Second(int p)
+  protected static SiUnit Second(int p)
   {
     return new SiUnit(p, 0, 0, 0, 0, 0, 0);
   }
@@ -17,7 +17,7 @@ public static class BaseUnits
   /// </summary>
   /// <param name="p"></param>
   /// <returns></returns>
-  public static SiUnit Meter(int p)
+  protected static SiUnit Meter(int p)
   {
     return new SiUnit(0, p, 0, 0, 0, 0, 0);
   }
@@ -26,7 +26,7 @@ public static class BaseUnits
   /// </summary>
   /// <param name="p"></param>
   /// <returns></returns>
-  public static SiUnit Kilogram(int p)
+  protected static SiUnit Kilogram(int p)
   {
     return new SiUnit(0, 0, p, 0, 0, 0, 0);
   }
@@ -35,7 +35,7 @@ public static class BaseUnits
   /// </summary>
   /// <param name="p"></param>
   /// <returns></returns>
-  public static SiUnit Ampere(int p)
+  protected static SiUnit Ampere(int p)
   {
     return new SiUnit(0, 0, 0, p, 0, 0, 0);
   }
@@ -44,7 +44,7 @@ public static class BaseUnits
   /// </summary>
   /// <param name="p"></param>
   /// <returns></returns>
-  public static SiUnit Kelvin(int p)
+  protected static SiUnit Kelvin(int p)
   {
     return new SiUnit(0, 0, 0, 0, p, 0, 0);
   }
@@ -53,7 +53,7 @@ public static class BaseUnits
   /// </summary>
   /// <param name="p"></param>
   /// <returns></returns>
-  public static SiUnit Mole(int p)
+  protected static SiUnit Mole(int p)
   {
     return new SiUnit(0, 0, 0, 0, 0, p, 0);
   }
@@ -62,7 +62,7 @@ public static class BaseUnits
   /// </summary>
   /// <param name="p"></param>
   /// <returns></returns>
-  public static SiUnit Candela(int p)
+  protected static SiUnit Candela(int p)
   {
     return new SiUnit(0, 0, 0, 0, 0, 0, p);
   }

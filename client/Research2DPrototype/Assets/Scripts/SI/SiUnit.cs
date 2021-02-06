@@ -23,4 +23,26 @@ public class SiUnit
     this.Mole = mol;
     this.Candela = cd;
   }
+
+  public static SiUnit operator *(SiUnit a, SiUnit b)
+  {
+    return new SiUnit(a.Second + b.Second,
+      a.Metre + b.Metre,
+      a.Kilogram + b.Kilogram,
+      a.Ampere + b.Ampere,
+      a.Kelvin + b.Kelvin,
+      a.Mole + b.Mole,
+      a.Candela + b.Candela);
+  }
+
+  public static SiUnit operator /(SiUnit a, SiUnit b)
+  {
+    return new SiUnit(a.Second - b.Second,
+      a.Metre - b.Metre,
+      a.Kilogram - b.Kilogram,
+      a.Ampere - b.Ampere,
+      a.Kelvin - b.Kelvin,
+      a.Mole - b.Mole,
+      a.Candela - b.Candela);
+  }
 }
