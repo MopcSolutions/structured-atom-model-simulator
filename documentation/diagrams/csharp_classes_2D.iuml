@@ -1,0 +1,88 @@
+[plantuml, ruby_classes, png]     
+....
+
+hide empty members
+
+class SiUnit
+{
+  +Second
+  +Metre
+  +Kilogram
+  +Ampere
+  +Kelvin
+  +Mole
+  +Candela
+  +SiUnit(s, m, kg, A, K, mol, cd)
+  {static} + * (a, b)
+  {static} + / (a, b)
+}
+class PowerValue
+{
+  +CalculatedValue
+  +PowerValue(v, p)
+}
+class SiValue
+{
+  +PowerValue
+  +SiUnit
+  +SiValue(pv, su)
+}
+class BaseUnits <<Builder>>
+{
+  {static} #Second(p)
+  {static} #Meter(p)
+  {static} #Kilogram(p)
+  {static} #Ampere(p)
+  {static} #Kelvin(p)
+  {static} #Mole(p)
+  {static} #Candela(p)
+}
+class DerivedUnits <<Builder>>
+{
+  {static} +Joule()
+  {static} +Mass()
+  {static} +ElectricCharge()
+}
+class SiUnitFactory <<Factory>>
+{
+  {static} +Build(v, p, au)
+}
+class Constants
+{
+  {static} +ElementaryCharge
+}
+enum AvailableUnits
+{
+  Mass
+  Joule
+  ElectricCharge
+}
+class Element <<MonoBehaviour>>
+{
+  +elementData[]
+  Start()
+  Update()
+}
+class ElementData  <<ScriptableObject>>
+{
+  -Value
+  -Power
+  -AvailableUnits
+}
+
+BaseUnits <|-down- DerivedUnits
+PowerValue *-up- SiValue
+SiUnit *-down- SiValue
+
+BaseUnits .left.> SiUnit : builds
+SiUnitFactory .down.> SiUnit : builds
+
+
+Constants .left.> SiValue : uses
+Constants .down.> PowerValue : uses
+Constants .right.> DerivedUnits : uses
+SiUnitFactory .right.> AvailableUnits : uses
+ElementData  .left.> AvailableUnits : uses
+Element ..> ElementData : uses
+
+....

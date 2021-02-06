@@ -1,0 +1,10 @@
+= Structure of C# 2D part 
+Sergej Kern <sergej.kern@roboterwerke.su>
+
+== How to
+https://asciidoctor.org/docs/asciidoctor-diagram/
+
+== Diagrams
+
+.Class diagrams
+include::diagrams/csharp_classes_2D.iuml[]
