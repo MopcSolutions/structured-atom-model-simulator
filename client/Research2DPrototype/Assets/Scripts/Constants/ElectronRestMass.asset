@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143321ed6c86c53448c11cab25876810, type: 3}
   m_Name: ElectronRestMass
   m_EditorClassIdentifier: 
-  Value: 9.109384
+  Value: 9.1093837015
   Power: -31
   AvailableUnits: 0

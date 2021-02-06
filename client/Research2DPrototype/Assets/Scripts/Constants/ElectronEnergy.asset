@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143321ed6c86c53448c11cab25876810, type: 3}
   m_Name: ElectronEnergy
   m_EditorClassIdentifier: 
-  Value: 8.187106
+  Value: 8.1871057769
   Power: -14
   AvailableUnits: 1

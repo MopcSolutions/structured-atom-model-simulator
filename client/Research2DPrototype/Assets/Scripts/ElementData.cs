@@ -6,7 +6,7 @@ order = 51)]
 public class ElementData : ScriptableObject
 {
   [SerializeField]
-  private float Value;
+  private double Value;
   [SerializeField]
   private int Power;
   [SerializeField]

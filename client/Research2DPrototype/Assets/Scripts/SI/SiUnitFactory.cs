@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SiUnitFactory
 {
-  public static SiValue Build(float val, int pow, AvailableUnits au)
+  public static SiValue Build(double val, int pow, AvailableUnits au)
   {
     switch (au)
     {
