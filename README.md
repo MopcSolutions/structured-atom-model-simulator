@@ -11,6 +11,7 @@ Find documentation in documentation folder ;)
 ## Project
 
 Place reqierements and issues in the [Project](https://github.com/MopcSolutions/structured-atom-model-simulator/projects/1)
+Discussion takes place in [discord](https://discord.gg/NKTX5ufP9p)
 
 ## Diagrams
 
