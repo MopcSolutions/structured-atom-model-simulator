@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 9.1093837015
   Power: -31
-  AvailableUnits: 0
+  Unit: 12000
+  Description: Electron rest mass in kg https://en.wikipedia.org/wiki/Electron_rest_mass

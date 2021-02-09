@@ -4,9 +4,8 @@ A simulator of the structured atom model.
 
 ## Guidelines
 
-Documentation is be done in [AsciiDoc](docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/) using [PlantUML](www.plantuml.com) for diagrams.
-
-Find documentation in documentation folder ;)
+* Documentation is done in [AsciiDoc](docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/) using [PlantUML](www.plantuml.com) for diagrams.
+* 2019 LTS Version of Unity is used
 
 ## Project
 

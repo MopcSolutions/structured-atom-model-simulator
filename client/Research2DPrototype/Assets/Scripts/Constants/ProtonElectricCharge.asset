@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 1.602176634
   Power: -19
-  AvailableUnits: 2
+  Unit: 3000
+  Description: Proton electric charge in Coulomb

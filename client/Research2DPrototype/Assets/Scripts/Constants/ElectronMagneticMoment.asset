@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 143321ed6c86c53448c11cab25876810, type: 3}
-  m_Name: ProtonMagneticMoment
+  m_Name: ElectronMagneticMoment
   m_EditorClassIdentifier: 
-  Value: 1.41060679736
-  Power: -26
-  Unit: 11000
-  Description: magnetic monent in J/T
+  Value: -1.00115965218091
+  Power: 1
+  Unit: 2000
+  Description: bohr magneton has already its value, so the actual value will be calculated

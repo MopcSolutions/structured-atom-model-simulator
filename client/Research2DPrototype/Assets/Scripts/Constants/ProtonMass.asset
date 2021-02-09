@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: 1.67262192369
   Power: -27
-  AvailableUnits: 0
+  Unit: 12000
+  Description: proton mass in kg
