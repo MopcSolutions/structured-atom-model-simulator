@@ -51,7 +51,7 @@ public class SiUnitFactory
         break;
       case AvailableUnits.Watt:
         break;
-      case AvailableUnits.Webe:
+      case AvailableUnits.Weber:
         break;
       default:
         break;

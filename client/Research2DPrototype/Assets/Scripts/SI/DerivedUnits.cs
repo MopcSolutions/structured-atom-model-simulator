@@ -40,6 +40,10 @@ public class DerivedUnits : BaseUnits
   {
     return Ampere(2) * Second(-2);
   }
+  /// <summary>
+  /// 
+  /// </summary>
+  /// <returns></returns>
   public static SiUnit Farad()
   {
     return Kilogram(-1) * Meter(-2) * Second(4) * Ampere(2);
@@ -84,6 +88,10 @@ public class DerivedUnits : BaseUnits
   {
     return Second(-1) * Mole(1);
   }
+  /// <summary>
+  /// 
+  /// </summary>
+  /// <returns></returns>
   public static SiUnit MagneticMoment()
   {
     return Joule() / Tesla();

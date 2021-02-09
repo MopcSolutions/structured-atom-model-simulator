@@ -27,5 +27,5 @@ public enum AvailableUnits
   Tesla = 18000,
   Volt = 19000,
   Watt = 20000,
-  Webe = 21000
+  Weber = 21000
 }
