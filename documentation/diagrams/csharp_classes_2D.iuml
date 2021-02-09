@@ -39,9 +39,27 @@ class BaseUnits <<Builder>>
 }
 class DerivedUnits <<Builder>>
 {
-  {static} +Joule()
-  {static} +Mass()
+  {static} +Becquerel()
+  {static} +BohrMagneton()
+  {static} +Coulomb()
   {static} +ElectricCharge()
+  {static} +Farad()
+  {static} +Gray()
+  {static} +Henry()
+  {static} +Hertz()
+  {static} +Joule()
+  {static} +Katal()
+  {static} +MagneticMoment()
+  {static} +Mass()
+  {static} +Newton()
+  {static} +Ohm()
+  {static} +Pascal()
+  {static} +Siemens()
+  {static} +Sievert()
+  {static} +Tesla()
+  {static} +Volt()
+  {static} +Watt()
+  {static} +Weber()
 }
 class SiUnitFactory <<Factory>>
 {
@@ -53,9 +71,27 @@ class Constants
 }
 enum AvailableUnits
 {
-  Mass
-  Joule
+  Becquerel
+  BohrMagneton
+  Coulomb
   ElectricCharge
+  Farad
+  Gray
+  Henry
+  Hertz
+  Joule
+  Katal
+  MagneticMoment
+  Mass
+  Newton
+  Ohm
+  Pascal
+  Siemens
+  Sievert
+  Tesla
+  Volt
+  Watt
+  Weber
 }
 class Element <<MonoBehaviour>>
 {
@@ -67,7 +103,8 @@ class ElementData  <<ScriptableObject>>
 {
   -Value
   -Power
-  -AvailableUnits
+  -Unit
+  -Description
 }
 
 BaseUnits <|-down- DerivedUnits
